@@ -13,6 +13,6 @@ SetDefaults.hook((original, self, Type, noMatCheck, variant) => {
          @summary to you change see:
          @example self.useTime *= -0.10 => this reduce tools speed in 10%.
         */
-		self.useTime *= -0.75; // 0.75 = -%70
+		self.useTime *= -0.75; // 0.75 = -%75
 	}
 });
