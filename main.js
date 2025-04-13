@@ -11,8 +11,8 @@ SetDefaults.hook((original, self, Type, noMatCheck, variant) => {
 	if (self.pick > 0 || self.hammer > 0 || self.axe > 0) {
 		/**
          @summary to you change see:
-         @example self.useTime *= -0.10 => this reduce tools speed in 10%.
+         @example self.useTime *= 0.10 => this reduce tools speed in 90%.
         */
-		self.useTime *= -0.75; // 0.75 = -%75
+		self.useTime *= 0.75; // 0.75 = -%25 because 75 + 25 = 100
 	}
 });
